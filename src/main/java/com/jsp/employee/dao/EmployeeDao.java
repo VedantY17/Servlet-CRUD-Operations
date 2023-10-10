@@ -13,7 +13,7 @@ import com.jsp.employee.dto.Employee;
 public class EmployeeDao {
 
 	EntityManagerFactory entityManagerFactory =
-			Persistence.createEntityManagerFactory("tanvi");
+			Persistence.createEntityManagerFactory("vedant");
 	
 	EntityManager entityManager = entityManagerFactory.createEntityManager();
 	
